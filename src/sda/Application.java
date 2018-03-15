@@ -14,6 +14,6 @@ public class Application {
         System.out.println(myCalculator.divide(randomGenerator.getSmallNumber(), randomGenerator.getBigNumber()));
 
         System.out.println("hello world");
-
+        System.out.println(myCalculator.factorial(5));
     }
 }
