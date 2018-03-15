@@ -20,4 +20,13 @@ public class Calculator {
         }
         return a / b;
     }
+
+    public int factorial(int a) {
+        int result = 1;
+        for (int i = 2; i <= a; i++) {
+            result = result * i;
+        }
+        return result;
+    }
 }
+

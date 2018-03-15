@@ -13,6 +13,7 @@ public class Application {
         System.out.println(calculator.multiply(randomGenerator.getSmallNumber(), randomGenerator.getBigNumber()));
         System.out.println(calculator.divide(randomGenerator.getSmallNumber(), randomGenerator.getBigNumber()));
 
+        System.out.println(calculator.factorial(5));
 
     }
 }
